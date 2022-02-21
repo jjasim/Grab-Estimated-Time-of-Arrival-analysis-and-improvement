@@ -15,5 +15,5 @@ This would then result in inaccurate ETAs outside the city. This is inline with 
 ## Findings
 You can see the findings and conclusions within the [notebook](https://colab.research.google.com/github/jjasim/Grab-Estimated-Time-of-Arrival-analysis-and-improvement/blob/main/Analysis%20of%20Grab%20Posisi%20Dataset%20to%20improve%20ETA.ipynb#scrollTo=iWMfR8rO7Ixc).
 
-# References
+## References
 1. Huang, X., Yin, Y., Lim, S., Wang, G., Hu, B., Varadarajan, J. & Zimmermann, R. (2019, November). Grab-Posisi: An Extensive Real-Life GPS Trajectory Dataset in Southeast Asia. In Proceedings of the 3rd ACM SIGSPATIAL International Workshop on Prediction of Human Mobility (pp. 1-10). DOI: https://doi.org/10.1145/3356995.3364536
