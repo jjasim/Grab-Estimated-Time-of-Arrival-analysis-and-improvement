@@ -5,7 +5,12 @@ Grab Holdings Inc., commonly known as Grab, is a Southeast Asian technology comp
 
 However, recently there has been a growing number of complains about inaccurate ETAs around Jakarta, Indonesia. As a result, this analysis seeks to find possible causes of this inaccuracy by analysing differences between within and outside of Jakarta.
 
-For this analysis, the Grab-Posisi dataset<sup>1</sup>, Southeast Asia’s First Comprehensive GPS Trajectory Dataset, will be used.
+For this analysis, the Grab-Posisi dataset<sup>[1](https://engineering.grab.com/grab-posisi)</sup>, Southeast Asia’s First Comprehensive GPS Trajectory Dataset, will be used.
 
 ## Motivation behind a rural vs urban analysis of Jakarta
+The main motivation behind this is as Grab uses average values of speed and ETA to predict ETAs of vehicles in and around Jakarta. However, these values would be skewed by values from within the city.
 
+This would then result in inaccurate ETAs outside the city. This is inline with Grab's problem of a substantial minority complaining about inaacurate ETAs. Through my analysis, I suggest that the ETAs outside of the cities are underestimated. This underestimation is driven by differences in speeds and GPS accuracy within and outside Jakarta.
+
+## Findings
+You can see the findings and conclusions within the [notebook](https://colab.research.google.com/github/jjasim/Grab-Estimated-Time-of-Arrival-analysis-and-improvement/blob/main/Analysis%20of%20Grab%20Posisi%20Dataset%20to%20improve%20ETA.ipynb#scrollTo=iWMfR8rO7Ixc).
